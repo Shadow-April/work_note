@@ -4,7 +4,7 @@
 import datetime
 
 def write_file(file):
-    with open(file, 'a') as f:
+    with open(file, 'delay') as f:
         f.write(str(datetime.datetime.now()) + '\n')
     f.close()
 
